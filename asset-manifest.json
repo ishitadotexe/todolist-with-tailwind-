@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/todolist-with-tailwind-/static/css/main.709c7604.css",
+    "main.js": "/todolist-with-tailwind-/static/js/main.112f521f.js",
+    "index.html": "/todolist-with-tailwind-/index.html",
+    "main.709c7604.css.map": "/todolist-with-tailwind-/static/css/main.709c7604.css.map",
+    "main.112f521f.js.map": "/todolist-with-tailwind-/static/js/main.112f521f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.709c7604.css",
+    "static/js/main.112f521f.js"
+  ]
+}
