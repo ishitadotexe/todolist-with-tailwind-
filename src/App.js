@@ -9,13 +9,13 @@ function App() {
   };
 
   const addTask = () => {
-    if (newTask.trim() === "") return; // prevent empty tasks
+    if (newTask.trim() === "") return;
     const task = {
       id: todoList.length === 0 ? 1 : todoList[todoList.length - 1].id + 1,
       taskName: newTask,
     };
     setToDoList([...todoList, task]);
-    SetNewTask(""); // clear input
+    SetNewTask(""); 
   };
 
   const deleteTask = (id) => {
@@ -29,7 +29,7 @@ function App() {
           🌸 Cute Todo List
         </h1>
 
-        {/* Add Task Section */}
+        
         <div className="flex gap-2 mb-6">
           <input
             value={newTask}
@@ -45,7 +45,7 @@ function App() {
           </button>
         </div>
 
-        {/* Task List */}
+      
         <div className="flex flex-col gap-4">
           {todoList.map((task) => (
             <div
